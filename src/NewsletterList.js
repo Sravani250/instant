@@ -54,9 +54,9 @@ const NewsletterList = ({ selectedYear, onMonthSelect }) => {
     ],
 
     "2026": [
-      "january.pdf"
-      "february.pdf"
-    ]
+  "january.pdf",
+  "february.pdf"
+   ],
   };
 
   const defaultLayout = defaultLayoutPlugin();
