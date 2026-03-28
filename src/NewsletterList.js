@@ -9,7 +9,6 @@ const NewsletterList = ({ selectedYear, onMonthSelect }) => {
   const [selectedFile, setSelectedFile] = useState(null);
   const [selectedMonth, setSelectedMonth] = useState(null);
 
-  // ✅ UPDATED DATA (based on your folders)
   const newsletters = {
     "2023": [
       "february.pdf",
@@ -56,6 +55,7 @@ const NewsletterList = ({ selectedYear, onMonthSelect }) => {
 
     "2026": [
       "january.pdf"
+      "february.pdf"
     ]
   };
 
